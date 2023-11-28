@@ -1,10 +1,90 @@
 :root {
   --brand-color: #434455;
   --brand-color-background: #ffffff;
-  --clo: pink;
+  --logo-color: #4d5ae5;
+  --color-text-second-part-up-logo: #2e2f42;
+  --color-text-studio: #2e2f42;
+  --color-hover-focus-studio: #404bbf;
 }
 body {
+  font-family: "Roboto", sans-serif;
   color: var(--brand-color);
   background-color: var(--brand-color-background);
-  font-family: "roboto", sans-serif;
+}
+
+.logo_up {
+  font-family: "Raleway" sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+}
+.second_part_of_up_logo {
+  color: var(--color-text-second-part-up-logo);
+}
+.list {
+  list-style: none;
+}
+.studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-studio);
+}
+.studio:hover,
+.studio:focus {
+  color: var(--color-hover-focus-studio);
+}
+
+.portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-studio);
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: var(--color-hover-focus-studio);
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-studio);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-hover-focus-studio);
+}
+.address {
+  font-style: normal;
+}
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--color-hover-focus-studio);
+}
+.phone {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--color-hover-focus-studio);
 }
