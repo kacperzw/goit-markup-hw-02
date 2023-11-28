@@ -7,15 +7,7 @@ body {
   color: var(--brand-color);
   background-color: var(--background-color);
 }
-.list {
-  text-decoration: none;
-  list-style: none;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  --color-list-in-nav: #2e2f42;
-  color: var(--color-list-in-nav);
-}
+
 .link {
   text-decoration: none;
   list-style: none;
