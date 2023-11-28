@@ -4,6 +4,7 @@
   --logo-color: #4d5ae5;
   --color-important: #2e2f42;
   --color-hover-focus-studio: #404bbf;
+  --background-second-color: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -78,23 +79,29 @@ body {
   background-color: var(--color-hover-focus-studio);
   cursor: pointer;
 }
-.point_of_section_two_list {
+.point_of_section_two_and_three_list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-important);
 }
-.paragraph_point_of_section_two {
+.paragraph_point_of_section_two_and_three {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section_third {
+.section_third_and_fourth {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-important);
+}
+.my_team {
+  background-color: var(--background-second-color);
+}
+.person {
+  background-color: var(--brand-color-background);
 }
