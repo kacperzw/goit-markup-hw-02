@@ -25,11 +25,11 @@ body {
 .link {
   text-decoration: none;
 }
-.second_part_of_up_logo {
-  color: var(--color-important);
-}
 .list {
   list-style: none;
+}
+.second_part_of_up_logo {
+  color: var(--color-important);
 }
 .about_me {
   font-weight: 500;
