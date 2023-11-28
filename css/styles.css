@@ -78,14 +78,14 @@ body {
   background-color: var(--color-hover-focus-studio);
   cursor: pointer;
 }
-.point_of_section_2_list {
+.point_of_section_two_list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-important);
 }
-.paragraph_point_of_section_2 {
+.paragraph_point_of_section_two {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
