@@ -7,24 +7,6 @@ body {
   color: var(--brand-color);
   background-color: var(--background-color);
 }
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  --logo-text-color: #4d5ae5;
-  color: var(--logo-text-color);
-  text-decoration: none;
-}
-
-.second_part_of_up_logo {
-  --second-part-of-up-logo: #2e2f42;
-  color: var(--second-part-of-up-logo);
-}
-
 .list {
   text-decoration: none;
   list-style: none;
@@ -47,6 +29,23 @@ body {
 .link:hover,
 .link:focus {
   color: #404bbf;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  --logo-text-color: #4d5ae5;
+  color: var(--logo-text-color);
+  text-decoration: none;
+}
+
+.second_part_of_up_logo {
+  --second-part-of-up-logo: #2e2f42;
+  color: var(--second-part-of-up-logo);
 }
 
 .address {
