@@ -50,7 +50,8 @@ body {
 
 .address {
   font-style: normal;
-  color: var(--brand-color);
+  --color-address: #434455;
+  color: var(--color-address);
 }
 .adress:hover {
   color: #404bbf;
