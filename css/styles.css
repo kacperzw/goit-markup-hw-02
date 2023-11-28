@@ -17,8 +17,9 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--logo-color);
 }
 
 .link {
@@ -30,61 +31,27 @@ body {
 .list {
   list-style: none;
 }
-.studio {
+.about_me {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-studio);
 }
-.studio:hover,
-.studio:focus {
-  color: var(--color-hover-focus-studio);
-}
-
-.portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text-studio);
-}
-.portfolio:hover,
-.portfolio:focus {
-  color: var(--color-hover-focus-studio);
-}
-
-.contacts {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text-studio);
-}
-.contacts:hover,
-.contacts:focus {
+.about_me:hover,
+.about_me:focus {
   color: var(--color-hover-focus-studio);
 }
 .address {
   font-style: normal;
 }
-.mail {
+.contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
-.mail:hover,
-.mail:focus {
-  color: var(--color-hover-focus-studio);
-}
-.phone {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
-}
-.phone:hover,
-.phone:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--color-hover-focus-studio);
 }
