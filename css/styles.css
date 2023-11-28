@@ -25,6 +25,16 @@ body {
   color: var(--second-part-of-up-logo);
 }
 
+.list {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  --color-list-in-nav: #2e2f42;
+  color: var(--color-list-in-nav);
+}
+
 .link {
   text-decoration: none;
   list-style: none;
@@ -34,6 +44,11 @@ body {
   --color-list-in-nav: #2e2f42;
   color: var(--color-list-in-nav);
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
