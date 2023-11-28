@@ -12,7 +12,7 @@ body {
   background-color: var(--brand-color-background);
 }
 
-.logo_up {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -104,4 +104,15 @@ body {
 }
 .person {
   background-color: var(--brand-color-background);
+}
+.footer {
+  background-color: var(--color-important);
+}
+.second_part_of_down_logo {
+  color: var(--background-second-color);
+}
+.paragraph_footer {
+  line-height: 1.5;
+  color: var(--background-second-color);
+  letter-spacing: 0.02em;
 }
