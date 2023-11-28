@@ -3,7 +3,7 @@
   --background-color: #ffffff;
 }
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--brand-color);
   background-color: var(--background-color);
 }
