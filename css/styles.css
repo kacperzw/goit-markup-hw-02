@@ -2,8 +2,7 @@
   --brand-color: #434455;
   --brand-color-background: #ffffff;
   --logo-color: #4d5ae5;
-  --color-text-second-part-up-logo: #2e2f42;
-  --color-text-studio: #2e2f42;
+  --color-important: #2e2f42;
   --color-hover-focus-studio: #404bbf;
 }
 body {
@@ -26,7 +25,7 @@ body {
   text-decoration: none;
 }
 .second_part_of_up_logo {
-  color: var(--color-text-second-part-up-logo);
+  color: var(--color-important);
 }
 .list {
   list-style: none;
@@ -36,7 +35,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text-studio);
+  color: var(--color-important);
 }
 .about_me:hover,
 .about_me:focus {
@@ -54,4 +53,28 @@ body {
 .contacts:hover,
 .contacts:focus {
   color: var(--color-hover-focus-studio);
+}
+.section_theme {
+  background-color: var(--color-important);
+}
+.main_header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.btn_main_header {
+  background-color: var(--logo-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.btn_main_header:hover,
+.btn_main_header:focus {
+  background-color: var(--color-hover-focus-studio);
+  cursor: pointer;
 }
