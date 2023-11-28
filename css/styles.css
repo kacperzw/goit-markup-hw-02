@@ -1,3 +1,9 @@
+:root {
+  --brand-color: #434455;
+  --background-color: #ffffff;
+}
 body {
   font-family: "Roboto", "Raleway" sans-serif;
+  color: var(--brand-color);
+  background-color: var(--background-color);
 }
