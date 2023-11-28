@@ -7,6 +7,10 @@ body {
   color: var(--brand-color);
   background-color: var(--background-color);
 }
+.address {
+  font-style: normal;
+  color: var(--brand-color);
+}
 
 .link {
   text-decoration: none;
@@ -40,7 +44,12 @@ body {
   color: var(--second-part-of-up-logo);
 }
 
-.address {
-  font-style: normal;
-  color: var(--brand-color);
+.footer {
+  --background-color-footer: #2e2f42;
+  color: var(--background-color-footer);
+}
+
+.second_part_of_down_logo {
+  --text-color-logo-footer: #f4f4fd;
+  color: var(--text-color-logo-footer);
 }
