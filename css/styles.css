@@ -25,7 +25,7 @@ body {
   color: var(--second-part-of-up-logo);
 }
 
-.list {
+.link {
   text-decoration: none;
   list-style: none;
   font-weight: 500;
