@@ -34,7 +34,6 @@ body {
   --color-list-in-nav: #2e2f42;
   color: var(--color-list-in-nav);
 }
-
 .link {
   text-decoration: none;
   list-style: none;
@@ -44,6 +43,7 @@ body {
   --color-list-in-nav: #2e2f42;
   color: var(--color-list-in-nav);
 }
+
 .link:hover,
 .link:focus {
   color: #404bbf;
