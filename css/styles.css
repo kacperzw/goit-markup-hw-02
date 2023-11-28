@@ -24,7 +24,8 @@ body {
   --second-part-of-up-logo: #2e2f42;
   color: var(--second-part-of-up-logo);
 }
-.link {
+
+.list {
   text-decoration: none;
   list-style: none;
   font-weight: 500;
@@ -33,7 +34,6 @@ body {
   --color-list-in-nav: #2e2f42;
   color: var(--color-list-in-nav);
 }
-
 .link:hover {
   color: #404bbf;
 }
